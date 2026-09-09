@@ -1,0 +1,24 @@
+h1{
+  color: rgb(75, 32, 2);
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 100;
+}
+p{
+  color: rgb(78, 217, 171);
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ .about{
+       color: rgb(4, 76, 96);
+       font-size: 29px;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ #headling{
+  color: rgb(120, 40, 40);
+  font-size: 15px;
+  font-style: italic;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgb(194, 171, 138);
+  text-align: right;
+ }

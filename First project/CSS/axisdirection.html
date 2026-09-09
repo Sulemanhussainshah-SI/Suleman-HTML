@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Axis directions</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 40px;
+      background-color: #f3f4f6;
+    }
+    h1{
+      margin-bottom: 20px;
+    }
+    .wrapper{
+      display: flex;
+      gap: 30px;
+    }
+    .demo{
+      background:white;
+      padding: 20px;
+      border-radius: 2px solid black;
+      width: 45%;
+      margin: 10px;
+      box-shadow: 1px 2px 9px 1px rgba(0, 0, 0, 0.2);
+    }
+    .container{
+      border: 2px solid #000;
+      height: 250px;
+      padding: 10px;
+      border-radius: 10px;
+      display: flex;
+      background: #fffcfc;
+      background: linear-gradient(to bottom,#ff9a9e,#fad0c4);
+
+    }
+    .item {
+      background: #90e0ef;
+      padding: 20px;
+      margin: 10px;
+      border-radius: 10px;
+      font-size: 20px;
+      text-align: center;
+      width: 60px;
+    }
+    .item:nth-child(2){
+      background: rgb(3, 207, 243);
+    }
+    .item:nth-child(3){
+      background: rgb(117, 137, 141);
+    }
+    .label{
+        padding: 2px;
+      }
+    .arrow{
+      padding: 1px;
+      margin: 3px;
+    }
+  </style>
+</head>
+<body>
+    <h1>Flexbox: Main axis vs Cross axis</h1>
+
+    <div class="wrapper">
+      <div class="demo">
+        <div class="label"> Main axis =Row ( Default)</div>
+        <div class="arrow">Main axis direction- left to Right</div>
+        <div class="arrow">Cross axis direction- top to bottom</div>
+      
+
+       <div class="container" style="justify-content: center; align-items:center;">
+        <div class="item"> A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+       </div> 
+      </div>
+    </div>
+    <div class="demo">
+       <div class="label"> Main axis = Column (flex-direction:column;)</div>
+        <div class="arrow">Main axis direction- top to bottom</div>
+        <div class="arrow">Cross axis direction- right to left</div>
+
+        <div class="container" style="flex-direction: column;justify-content:center;align-items:center;">
+           <div class="item"> A</div>
+           <div class="item">B</div>
+           <div class="item">C</div>
+        </div>
+    </div>
+</body>
+</html>

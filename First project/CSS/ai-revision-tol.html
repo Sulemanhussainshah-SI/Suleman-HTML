@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Revision Tool</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+  <div class="logo">🤖 AI Revision Tool</div>
+
+  <div class="nav-links">
+    <span>History</span>
+    <span>Login</span>
+    <span>Signup</span>
+    <span>Dashboard</span>
+  </div>
+
+  <div class="credits">
+    Credits: <span id="credits">0</span>
+  </div>
+</div>
+
+<!-- Main Box -->
+<div class="main-box">
+
+  <h2>AI Revision Tool</h2>
+
+  <!-- Chat Area -->
+  <div id="chatBox"></div>
+
+  <!-- Input -->
+  <div class="input-area">
+    <input id="topic" placeholder="+ Topics">
+    <button onclick="sendMessage('notes')">🎤</button>
+  </div>
+
+  <!-- Buttons -->
+  <div class="buttons">
+    <button onclick="sendMessage('notes')">Notes</button>
+    <button onclick="sendMessage('quiz')">Quiz</button>
+    <button onclick="sendMessage('flashcards')">Flashcards</button>
+    <button onclick="sendMessage('pyq')">PYQ</button>
+  </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Input types in forms</title>
+</head>
+<body>
+    <h2>input types in forms</h2>
+     <form>
+         <label for="username">Your name :</label>
+         <input name="username" id="username" type="text" placeholder="Full name" required>
+         <br>
+         <label for="email">Email :</label>
+         <input name="email" id="email" type="email" placeholder="Email" required>
+         <br>
+         <label for="password">Password :</label>
+         <input name="password" id="password" type="password" placeholder="Password" required>
+         <br>
+         <label for="numbers">Numbers :</label>
+         <input name="numbers" id="numbers" type="numbers" required>
+         <br>
+         <label for="date">Date:</label>
+         <input name="date" id="date" type="Date" required>
+         <br>
+         <label for="color"> Pick on your faviroate color :</label>
+         <input type="color" name="color" id="color" value="color">
+         <br>
+         <label for="file">Upload your resume :</label>
+         <input name="file" id="file" type="file">
+         <br>
+         <label><input type="radio" name="gender" value="Male">Male</label>
+         <label><input type="radio" name="gender" value="Female">Female</label>
+         <label><input type="radio" name="gender" value="Other">Other</label>
+         <br>
+         <p>Select hobbies :</p>
+         <label><input type="checkbox" name="hobby" value="Gym">Gym</label>
+         <label><input type="checkbox" name="hobby" value="cricket">Cricket</label>
+         <label><input type="checkbox" name="hobby" value="singing">singing</label>
+         <label><input type="checkbox" name="hobby" value="coding">coding</label>
+         <label><input type="checkbox" name="hobby" value="other">Other</label>
+        <br>
+        <button type="submit">Sign up</button> <br>
+        <button type="reset">Click here to reset </button> <br>
+        <button type="button">Click me</button><br>
+
+
+        <label for="fruits">Choose a fruits :</label>
+        <select name="fruits" id="fruits">
+          <option value="apple">apple</option>
+          <option value="banana">banana</option>
+          <option value="oranges">oranges</option>
+          <option value="graps">graps</option>
+        </select>
+         <br>
+        <label for="story">write a short story :</label>
+        <textarea name="story" id="story" rows="4" cols="20" placeholder="write a story :"></textarea>
+     </form>
+</body>
+</html>

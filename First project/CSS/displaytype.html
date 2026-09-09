@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display type example</title>
+  <style>
+    .block {
+       display: block;
+       background-color: aquamarine;
+       max-width:50px ;
+       min-height: 10px;
+       padding: 10px;
+       margin: 6px;
+       border: 10px solid lightsalmon;
+    } 
+    .inline-block{
+      display: inline-block;
+      background-color: bisque;
+      padding: 100px;
+      margin: 100px;
+      border: 10px solid lightcoral;
+
+    }
+    .inline{
+      display: inline;
+      background-color: cornflowerblue;
+      padding: 10px;
+      margin: 7px;
+      border: 10px solid lightgoldenrodyellow;
+    }
+
+    
+  </style>
+</head>
+<body>
+  <h2>Display: Block</h2>
+  <div class="block">block 1</div>
+  <div class="block"> block 2</div>
+
+
+  <h2>Display: inline</h2>
+  <span class="inline"> inline 1</span>
+  <span class="inline"> inline 2</span>
+  <span class="inline"> inline 3</span>
+  
+
+  <h2>Display: inline block</h2>
+  <div class="inline-block"> box 1</div>
+  <div class="inline-block"> box 2</div>
+  <div class="inline-block"> box 3</div>
+</body>
+</html>

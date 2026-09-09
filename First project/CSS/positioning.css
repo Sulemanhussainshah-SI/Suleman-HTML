@@ -1,0 +1,47 @@
+body{
+  height: 1500px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.static{
+  background-color: lightblue;
+  position: static;
+
+}
+.relativ{
+  background-color: rgb(86, 51, 5);
+  position: relative;
+  top: 30px; 
+  left: 30px;
+
+}
+.parents{
+  background-color: rgb(181, 169, 154);
+  width: 300px;
+  height: 200px;
+  position: relative;
+  margin: 40px;
+  
+  
+  
+}
+.absolute{
+  background-color: coral;
+   position: absolute;
+  top: 20px;
+  right: 30px;
+ 
+
+}
+.fixed{
+  background-color: cornflowerblue;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+}
+.sticky{
+  background-color: cadetblue;
+  position: sticky;
+  top: 0;
+  left: 40px;
+}

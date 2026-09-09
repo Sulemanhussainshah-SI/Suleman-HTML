@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>psudoclass</title>
+  <style>
+    .btn{
+      height: 50px;
+      width: 80px;
+      border: 1px solid black;
+      border-radius: 10px;
+      background-color: rgb(239, 157, 5);
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: aliceblue;
+    }
+    .btn:hover{
+      background-color: rgb(92, 52, 237);
+    }
+    .btn:active{
+      background-color: rgb(138, 174, 103);
+      height: 60px;
+       width: 90px;
+    }
+    .bto{
+      height: 50px;
+      width: 100px;
+      margin:30px;
+      border: 1px solid gray;
+      border-radius: 20px;
+      background: wheat;
+      color: black;
+      font-weight:bold;
+      transition-property: all;
+      transition-duration: 1s;
+      transition-timing-function: steps(2);
+      transition-delay: 0s;
+    }
+    .bto:hover{
+      background-color: rgb(168, 235, 235);
+    }
+    .bto:active{
+      background-color: rgb(255, 13, 29);
+      height: 60px;
+      width: 110px;
+      
+    }
+    .box1{
+      height: 60px;
+      width: 60px;
+      border: 2px solid gray;
+      background-color: wheat;
+      color: black;
+      font-weight: bold;
+      border-radius: 8px;
+      position: relative;
+      top: 50px;
+      left: 50px;
+      transform: rotate(45deg);
+
+    }
+    .box2{
+      height: 60px;
+      width: 60px;
+      border: 2px solid gray;
+      background-color: rgb(224, 233, 122);
+      color: black;
+      font-weight: bold;
+      border-radius: 8px;
+      position: relative;
+      top: 100px;
+      left: 60px;
+      
+      transition: all 2s ease-in-out 0s;
+    }
+    .box2:hover{
+      transform: rotate(90deg);
+    }
+    .box2:active{
+      transform: rotatex(360deg);
+
+    }
+    .box3{
+      height: 60px;
+      width: 60px;
+      border: 2px solid gray;
+      background-color: rgb(224, 233, 122);
+      color: black;
+      font-weight: bold;
+      border-radius: 8px;
+      position: relative;
+      top: 120px;
+      left: 60px;
+      
+      transition: all 1s ease-in-out 0s;
+    }
+    .box3:hover{
+      transform: scale(2);
+
+    }
+    .box4{
+      height: 60px;
+      width: 60px;
+      border: 2px solid gray;
+      background-color: rgb(224, 233, 122);
+      color: black;
+      font-weight: bold;
+      border-radius: 8px;
+      position: relative;
+      top: 140px;
+      right: -90px;
+      
+      transition: all 1s ease-in-out 0s;
+    }
+    .box4:hover{
+      transform: scalex(2);
+
+    }
+    .box5{
+      height: 60px;
+      width: 70px;
+      border: 2px solid gray;
+      background-color: rgb(224, 233, 122);
+      color: black;
+      font-weight: bold;
+      border-radius: 8px;
+      position: relative;
+      top: 150px;
+      right: -90px;
+      
+      transition: all 1s ease-in-out 0s;
+    }
+    .box5:hover{
+      transform: translate(50px,50px);
+
+    }
+    .box6{
+      height: 60px;
+      width: 70px;
+      border: 2px solid gray;
+      background-color: rgb(224, 233, 122);
+      color: black;
+      font-weight: bold;
+      border-radius: 8px;
+      position: relative;
+      top: 160px;
+      right: -90px;
+      
+
+
+      transition: all 1s ease-in-out 0s;
+    }
+    .box6:hover{
+      
+      transform: translatey(60px);
+
+    }
+    .box7{
+      height: 60px;
+      width: 70px;
+      border: 2px solid gray;
+      background-color: rgb(224, 233, 122);
+      color: black;
+      font-weight: bold;
+      border-radius: 8px;
+      position: relative;
+      top: 170px;
+      right: -90px;
+      
+      transition: all 1s ease-in-out 0s;
+    }
+    .box7:hover{
+      transform: skew(45deg);
+
+    }
+
+
+    
+  </style>
+</head>
+<body>
+   <button class="btn"> click Me</button>
+   <button class="bto">Click Me for submit</button>
+   <div class="box1">Rotate</div>
+   <div class="box2">Rotate</div>
+   <div class="box3">Scale</div>
+    <div class="box4">Scale</div>
+    <div class="box5">Translate</div>
+    <div class="box6">Translate</div>
+    <div class="box7">Skew</div>
+    
+</body>
+</html>
